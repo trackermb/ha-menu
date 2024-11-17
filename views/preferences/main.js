@@ -142,7 +142,7 @@ elements.buttons.save.addEventListener('click', async (e) => {
   } else {
     elements.toasts.saveSuccess.show()
   }
-})
+})  
 
 // IPC EVENTS
 ipcRenderer.on('settings', (event, data) => {
