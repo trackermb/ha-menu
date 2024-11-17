@@ -313,3 +313,4 @@ ipcMain.on('exit', (_, __) => {
   if (win) win.close()
   if (downloader && !downloader.isDestroyed()) downloader.close()
 })
+  
